@@ -1,0 +1,47 @@
+Please input the file pathname: data1.txt
+
+> startNewDay|01-Jan-2018
+
+> hire|Bob|30
+Done.
+
+> hire|John|30
+Done.
+
+> hire|Grace|30
+Done.
+
+> listEmployees
+Bob (Entitled Annual Leaves: 30 days)
+Grace (Entitled Annual Leaves: 30 days)
+John (Entitled Annual Leaves: 30 days)
+
+> undo
+
+> undo
+
+> undo
+
+> undo
+Nothing to undo.
+
+> listEmployees
+
+> redo
+
+> redo
+
+> listEmployees
+Bob (Entitled Annual Leaves: 30 days)
+John (Entitled Annual Leaves: 30 days)
+
+> hire|Helena|40
+Done.
+
+> listEmployees
+Bob (Entitled Annual Leaves: 30 days)
+Helena (Entitled Annual Leaves: 40 days)
+John (Entitled Annual Leaves: 30 days)
+
+> redo
+Nothing to redo.
